@@ -1,0 +1,28 @@
+// Colors
+$linkColor: #3f6fbc;
+$activeColor: #c21a23;
+
+.Menu {
+	background-color: #f2f2f2;
+	width: 100%;
+
+	a {
+		color: $linkColor;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 15px;
+	}
+
+	&__link {
+		float: left;
+		&--active {
+			@extend .Menu__link;  
+			a {
+				background-color: $activeColor;
+				color: #fff;
+			}			
+		}
+	}
+
+
+}

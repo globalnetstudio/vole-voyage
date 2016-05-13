@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+# Activa el modulo de rescritura
+RewriteEngine on
+
+# Indica que el directorio base es la raiz
+RewriteBase /
+
+# No aplica la rescritura a directorios que ya existan como:
+# images/ o css/ o js/ etc...
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# No aplica la rescritura a ficheros que ya existan como:
+# logo.png o document.pdf
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?page=$1 [L,QSA]
+RewriteRule ^([a-zA-Z0-9_-]+)/$ index.php?page=$1 [L,QSA]
+</IfModule>

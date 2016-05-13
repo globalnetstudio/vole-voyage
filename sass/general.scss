@@ -1,0 +1,12 @@
+html {}
+
+.hide {
+	text-indent: -9999px;
+	position: absolute;
+}
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}

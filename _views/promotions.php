@@ -1,0 +1,1 @@
+<h1>Contenido de la pagina de Promociones</h1>

@@ -1,0 +1,33 @@
+.hide {
+  text-indent: -9999px;
+  position: absolute;
+}
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.Menu {
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.Menu a {
+  color: #3f6fbc;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.Menu__link, .Menu__link--active {
+  float: left;
+}
+
+.Menu__link--active a {
+  background-color: #c21a23;
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */
