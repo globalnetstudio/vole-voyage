@@ -1,3 +1,14 @@
+html, body, body div, span, h1, h2, h3, h4, h5, h6, p, img, strong, b, i, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td, article, footer, header, menu, nav, section, figure {
+  margin: 0;
+  padding: 0;
+}
+
+.hide {
+  text-indent: -9999px;
+  top: -9999px;
+  position: absolute;
+}
+
 .hide {
   text-indent: -9999px;
   position: absolute;
@@ -9,25 +20,168 @@
   clear: both;
 }
 
-.Menu {
+#header {
+  background: url(/images/header/header-background-1890px.jpg) no-repeat;
+  min-height: 600px;
+  border-top: solid 14px #ef202b;
+  border-bottom: solid 14px #ef202b;
+  position: relative;
+}
+
+.logo-menu {
   background-color: #f2f2f2;
+  background-color: rgba(242, 242, 242, 0.9);
+  border-top: solid 1px #3f6fbc;
+  border-bottom: solid 1px #3f6fbc;
+  height: 50px;
+  position: absolute;
+  width: 100%;
+  top: 40px;
+}
+
+.logo-menu__container {
+  margin: auto;
+  width: 985px;
+}
+
+.logo {
+  height: 90px;
+  width: 320px;
+  position: absolute;
+  top: -21px;
+}
+
+.logo > img {
+  max-width: 320px;
   width: 100%;
 }
 
-.Menu a {
+.carousel-welcome {
+  width: 985px;
+  margin: auto;
+  top: 110px;
+  position: relative;
+}
+
+.carousel-welcome .carousel-home {
+  background-size: contain;
+  background: url("/images/carousel/home/polaroid-background.png") no-repeat;
+  float: left;
+  height: 475px;
+  margin-right: -33px;
+  max-width: 585px;
+  width: 585px;
+  position: relative;
+  left: -33px;
+}
+
+.carousel-welcome .polaroid {
+  height: 370px;
+  width: 468px;
+  position: relative;
+  top: 55px;
+  left: 62px;
+  overflow: hidden;
+}
+
+.carousel-welcome #slider {
+  height: 370px;
+  width: 500%;
+}
+
+.carousel-welcome .slide {
+  height: 370px;
+  width: 468px;
+  list-style-type: none;
+  float: left;
+  display: block;
+}
+
+.carousel-welcome > .welcome {
+  color: #fff;
+  font-family: Arial, sans-serif, Geneva;
+  font-size: 15px;
+  float: left;
+  width: 410px;
+  margin-left: 23px;
+  position: relative;
+  top: 85px;
+}
+
+.carousel-welcome > .welcome > h2 {
+  text-align: center;
+  font-size: 33px;
+  color: #ef202b;
+  font-weight: bold;
+  font-family: Verdana, Arial, sans-serif;
+  background-color: rgba(242, 242, 242, 0.9);
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+
+.carousel-welcome > .welcome p {
+  margin-bottom: 1em;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.menu {
+  height: 50px;
+  float: right;
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 15px;
+  list-style-type: none;
+}
+
+.menu a {
   color: #3f6fbc;
   text-decoration: none;
   font-weight: bold;
   font-size: 15px;
 }
 
-.Menu__link, .Menu__link--active {
+.menu > li {
   float: left;
+  height: 50px;
+  min-width: 70px;
+  padding: 0 20px;
+  font-weight: bold;
+  transition: all .75s;
+  position: relative;
 }
 
-.Menu__link--active a {
+.menu > li:after {
+  content: "";
+  position: absolute;
+  background-color: #f2f2f2;
+  height: 36px;
+  width: 1px;
+  right: -1px;
+  top: 7px;
+}
+
+.menu > li:last-child:after {
+  display: none;
+}
+
+.menu > li a {
+  display: block;
+  text-align: center;
+  transition: all .75s;
+  line-height: 50px;
+}
+
+.menu > .active, .menu > li:hover {
   background-color: #c21a23;
+}
+
+.menu > .active a, .menu > li:hover a {
   color: #fff;
+}
+
+.menu > .active:after, .menu > li:hover:after {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

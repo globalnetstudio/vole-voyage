@@ -1,0 +1,39 @@
+#header {
+	background: /*#0e141b*/ url(/images/header/header-background-1890px.jpg) no-repeat;
+	min-height: 600px;
+	border-top: solid 14px lighten(saturate($red, 10%), 10%);
+	border-bottom: solid 14px lighten(saturate($red, 10%), 10%);
+	position: relative;
+}
+
+// Colors
+$gray: #f2f2f2;
+$borderBlue: #3f6fbc;
+
+.logo-menu {
+	background-color: $gray;
+	background-color: rgba($gray, .9);
+	border-top: solid 1px $borderBlue;
+	border-bottom: solid 1px $borderBlue;
+	height: 50px;
+	position: absolute;	
+	width: 100%;
+	top: 40px;
+
+	&__container {
+		margin: auto;
+		width: 985px;
+	}
+}
+
+.logo {
+	height: 90px;
+	width: 320px;
+	position: absolute;
+	top: -21px;
+
+	& > img {
+		max-width: 320px;
+		width: 100%;
+	}
+}

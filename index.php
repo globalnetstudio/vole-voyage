@@ -41,3 +41,9 @@ switch ($pageUrl) {
 
 // Carga la plantilla principal
 include_once('_templates/main.php');
+
+// Vacia el array de sessión
+$_SESSION = [];
+
+// Elimina la sesión
+session_destroy();

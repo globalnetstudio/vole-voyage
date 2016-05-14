@@ -1,11 +1,12 @@
 // Colors
 $linkColor: #3f6fbc;
-$activeColor: #c21a23;
 
-.Menu {
-	background-color: #f2f2f2;
-	width: 100%;
-
+.menu {
+	height: 50px;
+	float: right;
+	font-family: Montserrat, Arial, sans-serif;
+	font-size: 15px;
+	list-style-type: none;
 	a {
 		color: $linkColor;
 		text-decoration: none;
@@ -13,16 +14,46 @@ $activeColor: #c21a23;
 		font-size: 15px;
 	}
 
-	&__link {
+	& > li {
 		float: left;
-		&--active {
-			@extend .Menu__link;  
-			a {
-				background-color: $activeColor;
-				color: #fff;
-			}			
+		height: 50px;
+		min-width: 70px;
+		padding: 0 20px;
+		font-weight: bold;
+		transition: all .75s;
+		position: relative;
+
+		&:after {
+			content: "";
+			position: absolute;
+			background-color: #f2f2f2;
+			height: 36px;
+			width: 1px;
+			right: -1px;
+			top: 7px;
 		}
+
+			&:last-child:after {
+				display: none;
+		}
+
+		a {			
+			display: block;
+			text-align: center;
+			transition: all .75s;			
+			line-height: 50px;			
+		}		
 	}
 
+	& > .active, & > li:hover {
+		background-color: $red;
+		a {
+			color: #fff;
+		}
+
+		&:after {
+			display: none;
+		}
+	}
 
 }
