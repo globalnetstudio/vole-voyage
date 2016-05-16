@@ -3,6 +3,10 @@ html, body, body div, span, h1, h2, h3, h4, h5, h6, p, img, strong, b, i, ol, ul
   padding: 0;
 }
 
+img {
+  border: none;
+}
+
 .hide {
   text-indent: -9999px;
   top: -9999px;
@@ -199,6 +203,9 @@ html, body, body div, span, h1, h2, h3, h4, h5, h6, p, img, strong, b, i, ol, ul
   float: left;
   text-align: center;
   position: relative;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  border-bottom: dashed 1px #b8c5de;
 }
 
 .home__row__column:first-child {
