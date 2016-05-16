@@ -264,26 +264,6 @@ img {
   padding-bottom: 15px;
 }
 
-.about__column:first-child {
-  float: left;
-  text-align: left;
-}
-
-.about__column:first-child img {
-  max-width: 478px;
-  width: 100%;
-}
-
-.about__column:last-child {
-  text-align: right;
-  float: right;
-}
-
-.about__column:last-child img {
-  max-width: 474px;
-  width: 100%;
-}
-
 .about__column h2 {
   text-align: center;
   font-size: 24px;
@@ -303,7 +283,28 @@ img {
   line-height: 20px;
   position: relative;
   text-align: justify;
-  width: 476px;
+}
+
+.about .mission {
+  float: left;
+  text-align: left;
+}
+
+.about .mission img {
+  display: block;
+  max-width: 478px;
+  width: 100%;
+}
+
+.about .vission {
+  float: right;
+}
+
+.about .vission img {
+  display: block;
+  text-align: right;
+  max-width: 474px;
+  width: 100%;
 }
 
 .contact-information {

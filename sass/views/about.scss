@@ -9,23 +9,7 @@
 		text-align: center;
 		position: relative;
 		padding-top: 10px;
-		padding-bottom: 15px;
-		&:first-child {
-			float: left;
-			text-align: left;
-			img {
-				max-width: 478px;
-				width: 100%;
-			}
-		}
-		&:last-child {
-			text-align: right;
-			float: right;
-			img {
-				max-width: 474px;
-				width: 100%;
-			}
-		}
+		padding-bottom: 15px;		
 		h2 {
 			text-align: center;
 			font-size: 24px;
@@ -44,7 +28,24 @@
 			line-height: 20px;
 			position: relative;
 			text-align: justify;
-			width: 476px;
+		}
+	}
+	.mission {
+		float: left;
+		text-align: left;
+		img {
+			display: block;
+			max-width: 478px;
+			width: 100%;
+		}
+	}
+	.vission {
+		float: right;
+		img {
+			display: block;
+			text-align: right;
+			max-width: 474px;
+			width: 100%;
 		}
 	}
 }
