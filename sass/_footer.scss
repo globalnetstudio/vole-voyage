@@ -1,0 +1,36 @@
+.footer {
+	background-color: #3f6fbc;
+	height: 50px;
+	font-size: 11px;
+	color: white;
+	font-family: Arial, sans-serif, Geveva;
+
+	.container {
+		line-height: 50px;
+		width: 985px;
+		margin: auto;
+	}	
+
+	.copyright {
+		float: left;
+	}
+
+	.developed_by {
+		float: right;
+		padding-right: 20px;
+
+		img {
+			position: relative;
+			top: 4px;
+			margin-top: -8px;
+		}
+
+		a {
+			color: white;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}

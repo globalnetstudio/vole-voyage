@@ -7,7 +7,7 @@
 		<meta name="description" content="<?php echo $meta_description; ?>">
 		<link rel="stylesheet" href="/css/styles.css">
 		<!-- Google Fonts -->
-	  <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+	  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
 		<!-- Jquery -->
 	  <script src="/js/jquery.min.js"></script>
@@ -44,7 +44,6 @@
 					</div> <!-- /.container -->
 				</div> <!-- /.logo-menu -->
 
-				
 				<?php
 					switch ($page_name) :
 						case 'home':
@@ -69,11 +68,41 @@
 		</header>
 
 		<section>
-			<?php include_once($page_view); ?>
-		</header>
+			<div class="content">
+				<?php include_once($page_view); ?>
+			</div> <!-- /.content -->
+		</section>
+
+		<aside>
+
+			<div class="contact-information clearfix">
+
+				<div class="column email">
+					<p><img class="icon icon-email" src="/images/icons/email-icon.jpg" alt="Icono de Email">contactanos@volevoyage.com</p>
+				</div> <!-- /.email -->
+
+				<div class="column phones">
+					<p><img class="icon icon-phone" src="/images/icons/phone-icon.jpg" alt="Icono de Teléfono"> (81) 8332-3082&nbsp;&nbsp;(81) 1968-2800</p>
+				</div>
+
+				<div class="column social-icons">
+					<img class="icon icon-facebook" src="/images/icons/facebook-icon.jpg" alt="Icono de Facebook">
+					<img class="icon icon-twitter" src="/images/icons/twitter-icon.jpg" alt="Icono de Twitter">
+					<img class="icon icon-google-plus" src="/images/icons/google-plus-icon.jpg" alt="Icono de Google Plus">
+					<img class="icon icon-instagram" src="/images/icons/instagram-icon.jpg" alt="Icono de Instagram">
+				</div> <!-- /.social-icons -->
+
+			</div> <!-- /.contact-information -->
+
+		</aside> <!-- /.bottom-content -->
 
 		<footer>
-			
+			<div class="footer clearfix">
+				<div class="container">
+					<p class="copyright">Copyright 2016 &copy; Vole Voyage &#8226; Todos los Derechos Reservados</p>
+					<p class="developed_by">Desarrollo por <img src="/images/icons/global-net-studio-logo.png" alt="Global Net Studio Logo"> <a href="http://globalnetstudio.com/" target="_blank">Global Net Studio</a></p>
+				</div> <!-- /.footer__container -->
+			</div> <!-- /.footer -->
 		</footer>		
 	</body>
 </html>

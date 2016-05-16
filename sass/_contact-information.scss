@@ -1,0 +1,33 @@
+.contact-information {
+	margin: 0 auto 30px;
+	width: 985px;
+	.column {
+		float: left;
+		height: 30px;
+		width: 33%;
+		line-height: 30px;
+		p {
+			font-family: Montserrat, Arial, Verdana;
+			color: #325899;
+			font-size: 14px;
+		}
+		.icon {
+			margin-bottom: -7px;
+		}
+	}
+	.email {
+		text-align: left;
+	}
+
+	.phones {
+		text-align: center;
+	}
+
+	.social-icons {
+		text-align: right;
+	}
+
+	.icon-email, .icon-phone {
+		margin-right: 10px;
+	}
+}

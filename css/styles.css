@@ -184,4 +184,133 @@ html, body, body div, span, h1, h2, h3, h4, h5, h6, p, img, strong, b, i, ol, ul
   display: none;
 }
 
+.content {
+  margin: auto;
+  padding: 30px 20px;
+  width: 985px;
+}
+
+.home {
+  background-color: #f2f2f2;
+}
+
+.home__row__column {
+  width: 33%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.home__row__column:first-child {
+  text-align: left;
+}
+
+.home__row__column:last-child {
+  text-align: right;
+}
+
+.home__row__column p {
+  color: #f2f2f2;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 13px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 307px;
+  letter-spacing: 1px;
+  line-height: 17px;
+  position: relative;
+  margin-top: -45px;
+  bottom: 45px;
+}
+
+.home__row__column .reservation {
+  padding: 0 20px 0 80px;
+}
+
+.home__row__column .trip {
+  width: 100%;
+  padding: 0 20px 0 92px;
+}
+
+.home__row__column .tours {
+  padding: 0 20px 0 80px;
+  float: right;
+}
+
+.contact-information {
+  margin: 0 auto 30px;
+  width: 985px;
+}
+
+.contact-information .column {
+  float: left;
+  height: 30px;
+  width: 33%;
+  line-height: 30px;
+}
+
+.contact-information .column p {
+  font-family: Montserrat, Arial, Verdana;
+  color: #325899;
+  font-size: 14px;
+}
+
+.contact-information .column .icon {
+  margin-bottom: -7px;
+}
+
+.contact-information .email {
+  text-align: left;
+}
+
+.contact-information .phones {
+  text-align: center;
+}
+
+.contact-information .social-icons {
+  text-align: right;
+}
+
+.contact-information .icon-email, .contact-information .icon-phone {
+  margin-right: 10px;
+}
+
+.footer {
+  background-color: #3f6fbc;
+  height: 50px;
+  font-size: 11px;
+  color: white;
+  font-family: Arial, sans-serif, Geveva;
+}
+
+.footer .container {
+  line-height: 50px;
+  width: 985px;
+  margin: auto;
+}
+
+.footer .copyright {
+  float: left;
+}
+
+.footer .developed_by {
+  float: right;
+  padding-right: 20px;
+}
+
+.footer .developed_by img {
+  position: relative;
+  top: 4px;
+  margin-top: -8px;
+}
+
+.footer .developed_by a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .developed_by a:hover {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=styles.css.map */
