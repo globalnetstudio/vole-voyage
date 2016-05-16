@@ -6,6 +6,7 @@
 		<meta name="robots" content="<?php echo $meta_robots; ?>">
 		<meta name="description" content="<?php echo $meta_description; ?>">
 		<link rel="stylesheet" href="/css/styles.css">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
 		<!-- Google Fonts -->
 	  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
