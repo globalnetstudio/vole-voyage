@@ -3,10 +3,6 @@ html, body, body div, span, h1, h2, h3, h4, h5, h6, p, img, strong, b, i, ol, ul
   padding: 0;
 }
 
-img {
-  border: none;
-}
-
 .hide {
   text-indent: -9999px;
   top: -9999px;
@@ -283,6 +279,7 @@ img {
 }
 
 .footer {
+  clear: both;
   background-color: #3f6fbc;
   height: 50px;
   font-size: 11px;
