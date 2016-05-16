@@ -49,9 +49,10 @@
 				<?php
 					switch ($page_name) :
 						case 'home':
-							include_once('_partials/carousel_home.php');
+							include_once('_partials/carousel_home_about.php');
 							break;
 						case 'about':
+							include_once('_partials/carousel_home_about.php');
 							// code
 							break;
 						case 'services':

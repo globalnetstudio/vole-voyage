@@ -1,3 +1,8 @@
 img {
 	border: none;
 }
+
+.contact-information {
+	clear: both;
+	padding: 30px 0 20px;
+}

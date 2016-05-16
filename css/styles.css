@@ -3,6 +3,10 @@ html, body, body div, span, h1, h2, h3, h4, h5, h6, p, img, strong, b, i, ol, ul
   padding: 0;
 }
 
+img {
+  border: none;
+}
+
 .hide {
   text-indent: -9999px;
   top: -9999px;
@@ -97,7 +101,7 @@ html, body, body div, span, h1, h2, h3, h4, h5, h6, p, img, strong, b, i, ol, ul
   display: block;
 }
 
-.carousel-welcome > .welcome {
+.carousel-welcome > .welcome-about {
   color: #fff;
   font-family: Arial, sans-serif, Geneva;
   font-size: 15px;
@@ -108,7 +112,7 @@ html, body, body div, span, h1, h2, h3, h4, h5, h6, p, img, strong, b, i, ol, ul
   top: 85px;
 }
 
-.carousel-welcome > .welcome > h2 {
+.carousel-welcome > .welcome-about > h2 {
   text-align: center;
   font-size: 33px;
   color: #ef202b;
@@ -119,7 +123,7 @@ html, body, body div, span, h1, h2, h3, h4, h5, h6, p, img, strong, b, i, ol, ul
   padding: 10px 0;
 }
 
-.carousel-welcome > .welcome p {
+.carousel-welcome > .welcome-about p {
   margin-bottom: 1em;
   line-height: 22px;
   letter-spacing: 1px;
