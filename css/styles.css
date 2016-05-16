@@ -198,25 +198,28 @@ img {
   background-color: #f2f2f2;
 }
 
-.home__row__column {
+.home__row {
+  border-bottom: dashed 1px #b8c5de;
+}
+
+.home__column {
   width: 33%;
   float: left;
   text-align: center;
   position: relative;
   padding-top: 10px;
   padding-bottom: 15px;
-  border-bottom: dashed 1px #b8c5de;
 }
 
-.home__row__column:first-child {
+.home__column:first-child {
   text-align: left;
 }
 
-.home__row__column:last-child {
+.home__column:last-child {
   text-align: right;
 }
 
-.home__row__column p {
+.home__column p {
   color: #f2f2f2;
   font-family: Verdana, Arial, sans-serif;
   font-size: 13px;
@@ -230,18 +233,77 @@ img {
   bottom: 45px;
 }
 
-.home__row__column .reservation {
+.home__column .reservation {
   padding: 0 20px 0 80px;
 }
 
-.home__row__column .trip {
+.home__column .trip {
   width: 100%;
   padding: 0 20px 0 92px;
 }
 
-.home__row__column .tours {
+.home__column .tours {
   padding: 0 20px 0 80px;
   float: right;
+}
+
+.about {
+  background-color: #f2f2f2;
+}
+
+.about__row {
+  padding-bottom: 20px;
+  border-bottom: dashed 1px #b8c5de;
+}
+
+.about__column {
+  width: 48%;
+  text-align: center;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.about__column:first-child {
+  float: left;
+  text-align: left;
+}
+
+.about__column:first-child img {
+  max-width: 478px;
+  width: 100%;
+}
+
+.about__column:last-child {
+  text-align: right;
+  float: right;
+}
+
+.about__column:last-child img {
+  max-width: 474px;
+  width: 100%;
+}
+
+.about__column h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Verdana, Arial, sans-serif;
+  color: #f91311;
+  margin: 15px 0;
+}
+
+.about__column p {
+  color: #747474;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  line-height: 20px;
+  position: relative;
+  text-align: justify;
+  width: 476px;
 }
 
 .contact-information {
