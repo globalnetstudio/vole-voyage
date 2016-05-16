@@ -5,6 +5,7 @@ img {
 .about__row,
 .contact-information {
 	clear: both;
+	overflow: hidden;
 }
 .contact-information {
 	padding: 30px 0 20px;
