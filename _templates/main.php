@@ -62,7 +62,7 @@
 									include_once('_partials/carousel.php');
 									break;
 								case 'promotions':
-									// code
+									include_once('_partials/promotions.php');
 									break;
 								case 'contact':
 									include_once('_partials/carousel.php');

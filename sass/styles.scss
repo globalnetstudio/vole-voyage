@@ -2,12 +2,14 @@
 @import './sass/colors.scss';
 @import './sass/utilerias';
 @import './sass/header';
-@import './sass/header-information';
+@import './sass/header/header-information';
+@import './sass/header/header-promotions';
+@import './sass/header/contact-information';
 @import './sass/carousel';
 @import './sass/menu';
 @import './sass/content';
 @import './sass/views/home';
 @import './sass/views/about';
-@import './sass/contact-information';
-@import './sass/contact';
+@import './sass/views/promotions';
+@import './sass/views/contact';
 @import './sass/footer';

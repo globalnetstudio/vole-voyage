@@ -1,3 +1,4 @@
+/*------------------BASE------------------*/
 html, body, body div, span, h1, h2, h3, h4, h5, h6, p, img, strong, b, i, ol, ul, li, table, caption, tbody, tfoot, thead, tr, th, td, article, footer, header, menu, nav, section, figure {
   margin: 0;
   padding: 0;
@@ -11,6 +12,7 @@ body {
   background-color: #f2f2f2;
 }
 
+/*---------UTILITIES---------*/
 .hide {
   text-indent: -9999px;
   top: -9999px;
@@ -29,6 +31,7 @@ body {
   overflow: hidden;
 }
 
+/*--------------------HEADER--------------------*/
 #header {
   background: url(/images/header/header-background-1890px.jpg) no-repeat;
   min-height: 600px;
@@ -65,6 +68,7 @@ body {
   width: 100%;
 }
 
+/*-------------HEADER INFORMATION-------------*/
 .header-information {
   color: #fff;
   font-family: Arial, sans-serif, Geneva;
@@ -119,6 +123,54 @@ body {
   top: 50px;
 }
 
+/*-------PROMOTIONS BANNER-------*/
+.promotions-banner {
+  position: relative;
+  top: 25px;
+}
+
+/*---------------CONTACT INFORMATION---------------*/
+.contact-information {
+  border-top: dashed #b8c5de 1px;
+  padding-top: 30px;
+  margin: 0 auto 30px;
+  width: 985px;
+}
+
+.contact-information .column {
+  float: left;
+  height: 30px;
+  width: 33%;
+  line-height: 30px;
+}
+
+.contact-information .column p {
+  font-family: Montserrat, Arial, Verdana;
+  color: #325899;
+  font-size: 14px;
+}
+
+.contact-information .column .icon {
+  margin-bottom: -7px;
+}
+
+.contact-information .email {
+  text-align: left;
+}
+
+.contact-information .phones {
+  text-align: center;
+}
+
+.contact-information .social-icons {
+  text-align: right;
+}
+
+.contact-information .icon-email, .contact-information .icon-phone {
+  margin-right: 10px;
+}
+
+/*-------------------CAROUSEL-------------------*/
 .wrapper {
   width: 985px;
   margin: auto;
@@ -160,6 +212,7 @@ body {
   display: block;
 }
 
+/*------------------MENU------------------*/
 .menu {
   height: 50px;
   float: right;
@@ -218,14 +271,16 @@ body {
   display: none;
 }
 
+/*------------CONTENT------------*/
 .content {
   margin: auto;
   padding: 30px 20px;
   width: 985px;
 }
 
-.home__row {
-  border-bottom: dashed 1px #b8c5de;
+/*----------------HOME----------------*/
+.home {
+  margin-bottom: -10px;
 }
 
 .home__column {
@@ -233,8 +288,7 @@ body {
   float: left;
   text-align: center;
   position: relative;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-top: 20px;
 }
 
 .home__column:first-child {
@@ -277,16 +331,11 @@ body {
   background-color: #f2f2f2;
 }
 
-.about__row {
-  padding-bottom: 20px;
-  border-bottom: dashed 1px #b8c5de;
-}
-
 .about__column {
   width: 48%;
   text-align: center;
   position: relative;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 15px;
 }
 
@@ -333,46 +382,21 @@ body {
   width: 100%;
 }
 
-.contact-information {
-  margin: 0 auto 30px;
-  width: 985px;
+/*-----PROMOTIONS-----*/
+.promotions {
+  padding-top: 10px;
 }
 
-.contact-information .column {
-  float: left;
-  height: 30px;
-  width: 33%;
-  line-height: 30px;
+.promotions .banner-ad img {
+  height: auto;
+  max-width: 980px;
+  width: 100%;
 }
 
-.contact-information .column p {
-  font-family: Montserrat, Arial, Verdana;
-  color: #325899;
-  font-size: 14px;
-}
-
-.contact-information .column .icon {
-  margin-bottom: -7px;
-}
-
-.contact-information .email {
-  text-align: left;
-}
-
-.contact-information .phones {
-  text-align: center;
-}
-
-.contact-information .social-icons {
-  text-align: right;
-}
-
-.contact-information .icon-email, .contact-information .icon-phone {
-  margin-right: 10px;
-}
-
+/*----------------CONTACT----------------*/
 .contact {
   font-family: Verdana, Arial, sans-serif;
+  margin-bottom: 20px;
 }
 
 .contact p:first-child {
@@ -503,7 +527,7 @@ body {
   color: #fff;
   cursor: pointer;
   font-family: Arial, Verdana, sans-serif;
-  font-size: 12px;
+  font-size: 11px;
   height: 45px;
   letter-spacing: 1px;
   line-height: 45px;
@@ -517,11 +541,6 @@ body {
 
 .contact .bottom-form .right-column button:hover {
   background-color: #dd0000;
-}
-
-.contact .maps {
-  padding-bottom: 40px;
-  border-bottom: dashed #b8c5de 1px;
 }
 
 .contact .maps .left-map,
@@ -567,6 +586,7 @@ body {
   width: 100%;
 }
 
+/*-----------------FOOTER-----------------*/
 .footer {
   clear: both;
   background-color: #3f6fbc;

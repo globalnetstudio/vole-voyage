@@ -1,14 +1,12 @@
+/*----------------HOME----------------*/
 .home {
-	&__row {
-		border-bottom: dashed 1px #b8c5de;
-	}
+	margin-bottom: -10px;
 	&__column {
 		width: 33%;
 		float: left;
 		text-align: center;
 		position: relative;
-		padding-top: 10px;
-		padding-bottom: 15px;		
+		padding-top: 20px;
 		&:first-child {
 			text-align: left;
 		}
