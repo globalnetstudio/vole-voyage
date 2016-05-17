@@ -212,6 +212,40 @@ body {
   display: block;
 }
 
+/*-------------------CAROUSEL LARGE-------------------*/
+.wrapper {
+  width: 985px;
+  margin: auto;
+  top: 110px;
+  position: relative;
+}
+
+#header-large {
+  background-image: url("/images/carousel-large/polaroid-background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 510px;
+  width: 775px;
+  margin: auto;
+  position: relative;
+  top: -4px;
+  margin-top: -10px;
+}
+
+#header-large .header-image {
+  height: 396px;
+  width: 617px;
+  position: absolute;
+  top: 62px;
+  left: 85px;
+}
+
+#header-large img {
+  height: auto;
+  max-width: 617px;
+  width: 100%;
+}
+
 /*------------------MENU------------------*/
 .menu {
   height: 50px;

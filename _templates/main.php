@@ -12,6 +12,7 @@
 
 		<!-- Jquery -->
 	  <script src="/js/jquery.min.js"></script>
+
 	  <!-- Slider -->
 	  <script src="/js/slider.js"></script>
 
@@ -59,7 +60,7 @@
 									include_once('_views/header-about-content.php');
 									break;
 								case 'services':
-									include_once('_partials/carousel.php');
+									include_once('_partials/carousel-large.php');
 									break;
 								case 'promotions':
 									include_once('_partials/promotions.php');
