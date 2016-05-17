@@ -16,7 +16,7 @@ class Pages {
 	public static function about()
 	{
 		return [
-			'page_title'       => 'Nosotros',
+			'page_title'       => ' - Nosotros',
 			'page_name'        => 'about',
 			'meta_robots'      => 'index, follow',
 			'meta_description' => '',
@@ -27,7 +27,7 @@ class Pages {
 	public static function services()
 	{
 		return [
-			'page_title'       => 'Servicios',
+			'page_title'       => ' - Servicios',
 			'page_name'        => 'services',
 			'meta_robots'      => 'index, follow',
 			'meta_description' => '',
@@ -38,7 +38,7 @@ class Pages {
 	public static function promotions()
 	{
 		return [
-			'page_title'       => 'Promociones',
+			'page_title'       => ' - Promociones',
 			'page_name'        => 'promotions',
 			'meta_robots'      => 'index, follow',
 			'meta_description' => '',
@@ -49,7 +49,7 @@ class Pages {
 	public static function contact()
 	{
 		return [
-			'page_title'       => 'Contacto',
+			'page_title'       => ' - Contacto',
 			'page_name'        => 'contact',
 			'meta_robots'      => 'index, follow',
 			'meta_description' => '',

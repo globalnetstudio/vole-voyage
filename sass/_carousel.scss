@@ -1,22 +1,21 @@
-.carousel-welcome {
+.wrapper {
 	width: 985px;
 	margin: auto;
 	top: 110px;
 	position: relative;
+}
 
-	& .carousel-home {
-		background-size: contain;
-		background: url('/images/carousel/home/polaroid-background.png') no-repeat;
-		float: left;
-		height: 475px;
-		margin-right: -33px;
-		max-width: 585px;
-		width: 585px;
-		position: relative;
-		left: -33px;
-	}
-
-	.polaroid {
+#carousel {
+	background-size: contain;
+	background: url('/images/carousel/home/polaroid-background.png') no-repeat;
+	float: left;
+	height: 475px;
+	margin-right: -33px;
+	max-width: 585px;
+	width: 585px;
+	position: relative;
+	left: -33px;
+	&	.polaroid {
 		height: 370px;
 		width: 468px;
 		position: relative;
@@ -28,42 +27,12 @@
 	#slider {
 		height: 370px;
 		width: 500%;
-	}
-
-	.slide {
-		height: 370px;
-		width: 468px;
-		list-style-type: none;
-		float: left;
-		display: block;
-	}
-
-	& > .welcome-about {
-		color: #fff;
-		font-family: Arial, sans-serif, Geneva;
-		font-size: 15px;
-		float: left;
-		width: 410px;
-		margin-left: 23px;
-		position: relative;
-		top: 85px;
-
-		& > h2 {
-			text-align: center;
-			font-size: 33px;
-			color: lighten(saturate($red, 10%), 10%);
-			font-weight: bold;
-			font-family: Verdana, Arial, sans-serif;
-			background-color: rgba(#f2f2f2, .9);
-			margin-bottom: 20px;
-			padding: 10px 0;
+		& .slide {
+			height: 370px;
+			width: 468px;
+			list-style-type: none;
+			float: left;
+			display: block;
 		}
-
-		p {
-			margin-bottom: 1em;
-			line-height: 22px;
-			letter-spacing: 1px;
-			text-align: justify;
-		}
-	}	
+	}
 }

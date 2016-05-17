@@ -1,0 +1,168 @@
+.contact {
+	font-family: Verdana, Arial, sans-serif;
+
+	p:first-child {
+		text-align: center;
+		font-family: Arial, sans-serif, Verdana;
+		color: #5e5e5e;
+		font-size: 13px;
+		margin-bottom: 20px;
+	}
+
+	input, textarea {
+		border: solid 1px #d4d4d4;
+		box-sizing: border-box;
+		color: #949494;
+		font-size: 11px;
+		padding: 15px;
+	}
+
+	input::placeholder,
+	textarea::placeholder {
+		color: #949494;
+	}
+
+	.name-email-phone-group {
+		margin-bottom: 10px;
+		box-sizing: border-box;
+		width: 100%;
+
+		.column {
+			width: 33.33%;
+			input {
+				display: block;
+				width: 98%;
+			}
+		}
+
+		.column:nth-child(1) {
+			float: left;
+			input {
+				margin-right: 2%;
+			}
+		}
+
+		.column:nth-child(2) {
+			float: left;
+			input {
+				margin: auto;
+			}
+		}
+
+		.column:nth-child(3) {
+			float: left;
+			input {
+				margin-left: 2%;
+			}			
+		}		
+	}
+
+	textarea {
+		margin-bottom: 20px;
+		width: 100%;
+	}
+
+	.bottom-form {
+		font-size: 12px;
+		margin-bottom: 30px;
+		width: 100%;
+
+		.left-column {
+			color: #5e5e5e;
+			float: left;
+			line-height: 45px;
+			text-align: center;
+			width: 66.67%;
+
+			p {
+				display: inline-block;
+				margin-right: 20px;
+			}
+
+			label {
+				cursor: pointer;
+				&[for="by_email"] {
+					margin-right: 15px;
+				}				
+			}
+
+			input[type=checkbox] {
+				position: relative;
+				top: 3px;
+				line-height: normal;
+				margin-right: 5px;
+				height: 15px;
+				width: 15px;
+			}
+		}
+
+		.right-column {
+			float: left;
+			width: 33.33%;
+
+			button {
+				background-color: saturate(#e03030, 30%);
+				border-radius: 5px;
+				border: none;
+				color: #fff;
+				cursor: pointer;
+				font-family: Arial, Verdana, sans-serif;
+				font-size: 12px;
+				height: 45px;
+				letter-spacing: 1px;
+				line-height: 45px;
+				padding: 0 20px;
+				transition: all .75s;
+				&:first-child {
+					margin-right: 10px;
+				}
+				&:hover {
+					background-color: darken(saturate(#e03030, 30%), 10%);
+				}
+			}
+		}
+	}
+
+	.maps {
+		padding-bottom: 40px;
+		border-bottom: dashed #b8c5de 1px;
+		.left-map,
+		.right-map {
+			width: 470px;
+		}
+
+		.left-map {
+			float: left;
+		}
+
+		.right-map {
+			float: right;
+		}
+
+		.address {
+			height: 50px;
+			width: 100%;
+			background-color: saturate(#e03030, 20%);
+			text-align: center;
+			p {
+				background: url('/images/icons/mark-icon.jpg') no-repeat left center;
+				color: #fff;
+				display: inline-block;
+				font-family: Verdana, Arial, sans-serif;
+				font-size: 13px;
+				padding: 10px 0 10px 30px;
+				width: 338px;
+				margin: 0;
+				line-height: 16px;
+				text-align-last: left;
+			}
+		}
+		.map {
+			border: solid 1px saturate(#e03030, 20%);
+			iframe {
+				height: 355px;
+				width: 100%;
+			}
+		}
+	}
+}

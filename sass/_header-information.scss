@@ -1,0 +1,53 @@
+.header-information {
+	color: #fff;
+	font-family: Arial, sans-serif, Geneva;
+	font-size: 15px;
+	float: left;
+	width: 410px;
+	margin-left: 23px;
+	position: relative;
+	top: 85px;
+
+	h2 {
+		text-align: center;
+		font-size: 33px;
+		color: lighten(saturate($red, 10%), 10%);
+		font-weight: 700;
+		font-family: Verdana, Arial, sans-serif;
+		background-color: rgba(#f2f2f2, .9);
+		margin-bottom: 20px;
+		padding: 10px 0;
+	}
+
+	p {
+		margin-bottom: 1em;
+		line-height: 22px;
+		letter-spacing: 1px;
+		text-align: justify;
+	}
+
+	h3 {
+		font-size: 18px;
+		font-family: Arial, sans-serif, Verdana;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+
+	.addresses p {
+		font-size: 15px;
+		margin-bottom: 15px;
+		&:last-child {
+			margin-bottom: 25px;
+		}
+	}
+
+
+	h3 + ul {
+		margin-left: 20px;
+		margin-bottom: 15px;
+	}
+}
+
+#contact .header-information {
+	top: 50px;
+}

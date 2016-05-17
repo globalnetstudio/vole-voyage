@@ -2,7 +2,7 @@
 <html lang="es-MX">
 	<head>
 		<meta charset="UTF-8">
-		<title>Agencia de Viajes Vole Voyage<?php echo $page_title; ?></title>
+		<title>Agencia de Viajes Vole Voyage<?php echo "{$page_title}"; ?></title>
 		<meta name="robots" content="<?php echo $meta_robots; ?>">
 		<meta name="description" content="<?php echo $meta_description; ?>">
 		<link rel="stylesheet" href="/css/styles.css">
@@ -22,7 +22,7 @@
 	    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	  <![endif]-->
 	</head>
-	<body class="<?php echo $page_name; ?>">
+	<body id="<?php echo $page_name; ?>">
 
 		<hgroup>
 			<h1 class="hide">Vole Voyage</h1>
@@ -46,26 +46,33 @@
 					</div> <!-- /.container -->
 				</div> <!-- /.logo-menu -->
 
-				<?php
-					switch ($page_name) :
-						case 'home':
-							include_once('_partials/carousel_home_about.php');
-							break;
-						case 'about':
-							include_once('_partials/carousel_home_about.php');
-							// code
-							break;
-						case 'services':
-							// code
-							break;
-						case 'promotions':
-							// code
-							break;
-						case 'contact':
-							// code
-							break;
-					endswitch;
-				?>
+				<div class="header-content clearfix">
+					<div class="wrapper">
+						<?php
+							switch ($page_name) :
+								case 'home':
+									include_once('_partials/carousel.php');
+									include_once('_views/header-welcome-content.php');
+									break;
+								case 'about':
+									include_once('_partials/carousel.php');
+									include_once('_views/header-about-content.php');
+									break;
+								case 'services':
+									include_once('_partials/carousel.php');
+									break;
+								case 'promotions':
+									// code
+									break;
+								case 'contact':
+									include_once('_partials/carousel.php');
+									include_once('_views/header-contact-content.php');
+									break;
+							endswitch;
+						?>
+					</div> <!-- /.wrapper -->
+				</div> <!-- /.header-body -->
+
 
 			</div> <!-- /#header -->
 		</header>
@@ -89,10 +96,10 @@
 				</div>
 
 				<div class="column social-icons">
-					<img class="icon icon-facebook" src="/images/icons/facebook-icon.jpg" alt="Icono de Facebook">
-					<img class="icon icon-twitter" src="/images/icons/twitter-icon.jpg" alt="Icono de Twitter">
-					<img class="icon icon-google-plus" src="/images/icons/google-plus-icon.jpg" alt="Icono de Google Plus">
-					<img class="icon icon-instagram" src="/images/icons/instagram-icon.jpg" alt="Icono de Instagram">
+					<a href="#"><img class="icon icon-facebook" src="/images/icons/facebook-icon.jpg" alt="Icono de Facebook"></a>
+					<a href="#"><img class="icon icon-twitter" src="/images/icons/twitter-icon.jpg" alt="Icono de Twitter"></a>
+					<a href="#"><img class="icon icon-google-plus" src="/images/icons/google-plus-icon.jpg" alt="Icono de Google Plus"></a>
+					<a href="#"><img class="icon icon-instagram" src="/images/icons/instagram-icon.jpg" alt="Icono de Instagram"></a>
 				</div> <!-- /.social-icons -->
 
 			</div> <!-- /.contact-information -->
