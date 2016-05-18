@@ -56,4 +56,15 @@ class Pages {
 			'page_view'        => '_views/contact.php',
 		];
 	}
+
+	public static function thanks()
+	{
+		return [
+			'page_title'       => ' - Gracias',
+			'page_name'        => 'thanks',
+			'meta_robots'      => 'noindex, nofollow',
+			'meta_description' => '',
+			'page_view'        => '_views/thanks.php',
+		];
+	}
 }

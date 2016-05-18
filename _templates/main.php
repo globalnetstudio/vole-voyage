@@ -16,6 +16,9 @@
 	  <!-- Slider -->
 	  <script src="/js/slider.js"></script>
 
+		<!-- Jquery Validation -->
+	  <script src="/js/jquery-validate.min.js"></script>
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	  <!--[if lt IE 9]>
 	  	<link rel="stylesheet" href="/css/styles-i8.css">
@@ -69,6 +72,9 @@
 									include_once('_partials/carousel.php');
 									include_once('_views/header-contact-content.php');
 									break;
+								case 'thanks':									
+									include_once('_partials/carousel-large.php');
+									break;
 							endswitch;
 						?>
 					</div> <!-- /.wrapper -->
@@ -114,6 +120,6 @@
 					<p class="developed_by">Desarrollo por <img src="/images/icons/global-net-studio-logo.png" alt="Global Net Studio Logo"> <a href="http://globalnetstudio.com/" target="_blank">Global Net Studio</a></p>
 				</div> <!-- /.footer__container -->
 			</div> <!-- /.footer -->
-		</footer>		
+		</footer>
 	</body>
 </html>

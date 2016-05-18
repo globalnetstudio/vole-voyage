@@ -1,4 +1,4 @@
-<?php session_start();
+<?php session_start(); ob_start();
 require('_partials/api.php'); // Carga el API
 require('_partials/helpers.php'); // Carga funciones globales
 
@@ -31,6 +31,10 @@ switch ($pageUrl) {
 
 	case 'contacto':
 		extract(Pages::contact());
+		break;
+
+	case 'gracias':
+		extract(Pages::thanks());
 		break;
 	
 	default:
