@@ -26,7 +26,7 @@ body {
 
 .clearfix::after {
   content: "";
-  display: block;
+  display: table;
   clear: both;
 }
 
@@ -547,7 +547,7 @@ body {
   padding-top: 10px;
 }
 
-.promotions .banner-ad img {
+.promotions .tourist-promotions img {
   height: auto;
   max-width: 980px;
   width: 100%;
