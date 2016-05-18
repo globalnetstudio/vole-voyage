@@ -129,47 +129,6 @@ body {
   top: 25px;
 }
 
-/*---------------CONTACT INFORMATION---------------*/
-.contact-information {
-  border-top: dashed #b8c5de 1px;
-  padding-top: 30px;
-  margin: 0 auto 30px;
-  width: 985px;
-}
-
-.contact-information .column {
-  float: left;
-  height: 30px;
-  width: 33%;
-  line-height: 30px;
-}
-
-.contact-information .column p {
-  font-family: Montserrat, Arial, Verdana;
-  color: #325899;
-  font-size: 14px;
-}
-
-.contact-information .column .icon {
-  margin-bottom: -7px;
-}
-
-.contact-information .email {
-  text-align: left;
-}
-
-.contact-information .phones {
-  text-align: center;
-}
-
-.contact-information .social-icons {
-  text-align: right;
-}
-
-.contact-information .icon-email, .contact-information .icon-phone {
-  margin-right: 10px;
-}
-
 /*-------------------CAROUSEL-------------------*/
 .wrapper {
   width: 985px;
@@ -416,6 +375,161 @@ body {
   width: 100%;
 }
 
+.services h2 {
+  background-color: #f81818;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  padding: .75em 0;
+  text-align: center;
+}
+
+.services h3 {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #f81514;
+}
+
+.services p, .services li {
+  color: #747474;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 15px;
+}
+
+.services p {
+  text-align: justify;
+  margin-bottom: 1em;
+  line-height: 22px;
+}
+
+.services .row .left-column,
+.services .row .right-column {
+  width: 48%;
+}
+
+.services .row .left-column {
+  float: left;
+}
+
+.services .row .right-column {
+  float: right;
+}
+
+.services .europe .row {
+  margin-bottom: 20px;
+}
+
+.services .europe .row .column {
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  width: 33%;
+}
+
+.services .europe .row .column img {
+  margin: auto;
+  height: auto;
+  width: 306px;
+}
+
+.services .europe .row .column p {
+  width: 306px;
+  margin: auto;
+}
+
+.services .europe .row .column:last-child {
+  padding-right: 0;
+}
+
+.services .usa .usa-description {
+  margin-bottom: 30px;
+}
+
+.services .usa .usa-description .red-underline {
+  color: #e03030;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.services .usa .new-york,
+.services .usa .disneyland {
+  margin-bottom: 40px;
+  border-bottom: dashed #b8c5de 1px;
+  padding-bottom: 20px;
+}
+
+.services .usa .las-vegas {
+  margin-bottom: 10px;
+}
+
+.services .usa .las-vegas-list {
+  color: #ff1111;
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+  list-style-type: none;
+}
+
+.services .tours-latin-america {
+  margin-bottom: 30px;
+}
+
+.services .tours-latin-america h2 {
+  margin-bottom: 40px;
+}
+
+.services .tours-latin-america .cruise {
+  margin-bottom: 40px;
+  border-bottom: dashed #b8c5de 1px;
+  padding-bottom: 10px;
+}
+
+.services .sports ul, .services .education ul {
+  margin-left: 20px;
+}
+
+.services .sports li, .services .education li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.services .sports li:last-child, .services .education li:last-child {
+  margin-bottom: 0;
+}
+
+.services .sports li span, .services .education li span {
+  margin-left: 20px;
+}
+
+.services .sports li:before, .services .education li:before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ff1111;
+  border-radius: 50%;
+  margin-bottom: 2px;
+}
+
+.services .education .left-column {
+  margin-top: 25px;
+}
+
+.services .education .left-column .description {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.services .education .left-column li {
+  margin-bottom: 20px;
+}
+
 /*-----PROMOTIONS-----*/
 .promotions {
   padding-top: 10px;
@@ -618,6 +732,47 @@ body {
 .contact .maps .map iframe {
   height: 355px;
   width: 100%;
+}
+
+/*---------------CONTACT INFORMATION---------------*/
+.contact-information {
+  border-top: dashed #b8c5de 1px;
+  padding-top: 30px;
+  margin: 0 auto 30px;
+  width: 985px;
+}
+
+.contact-information .column {
+  float: left;
+  height: 30px;
+  width: 33%;
+  line-height: 30px;
+}
+
+.contact-information .column p {
+  font-family: Montserrat, Arial, Verdana;
+  color: #325899;
+  font-size: 14px;
+}
+
+.contact-information .column .icon {
+  margin-bottom: -7px;
+}
+
+.contact-information .email {
+  text-align: left;
+}
+
+.contact-information .phones {
+  text-align: center;
+}
+
+.contact-information .social-icons {
+  text-align: right;
+}
+
+.contact-information .icon-email, .contact-information .icon-phone {
+  margin-right: 10px;
 }
 
 /*-----------------FOOTER-----------------*/

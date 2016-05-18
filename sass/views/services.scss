@@ -1,0 +1,161 @@
+.services {
+	h2 {
+		background-color: saturate(#e03030, 20%);
+		box-shadow: 0 5px 10px rgba(0,0,0,.25);
+		color: #fff;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 24px;
+		font-weight: normal;
+		margin-bottom: 30px;
+		padding: .75em 0;
+		text-align: center;
+	}
+
+	h3 {
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 24px;
+		margin-bottom: 10px;
+		color: saturate(#e02d2c, 20%);
+	}
+
+	p, li {
+		color: #747474;
+		font-family: Arial, Verdana, sans-serif;
+		font-size: 15px;
+	}
+
+	p {		
+		text-align: justify;
+		margin-bottom: 1em;
+		line-height: 22px;
+	}
+
+	.row {
+		.left-column,
+		.right-column {
+			width: 48%;
+		}
+
+		.left-column {
+			float: left;
+		}
+
+		.right-column {
+			float: right;
+		}
+	}
+
+	.europe {
+		.row {
+			margin-bottom: 20px;
+			.column {
+				float: left;
+				box-sizing: border-box;
+				text-align: center;
+				width: 33%;			
+
+				img {
+					margin: auto;
+					height: auto;
+					width: 306px;
+				}
+
+				p {
+					width: 306px;
+					margin: auto;
+				}
+
+				&:last-child {
+					padding-right: 0;
+				}
+			}
+		}
+	}
+
+	.usa {
+		.usa-description {
+			margin-bottom: 30px;
+			.red-underline {
+				color: #e03030;
+				text-decoration: underline;
+				font-weight: bold;
+			}
+		}
+
+		.new-york,
+		.disneyland {
+			margin-bottom: 40px;
+			border-bottom: dashed #b8c5de 1px;
+			padding-bottom: 20px;
+		}
+
+		.las-vegas {
+			margin-bottom: 10px;
+		}
+
+		.las-vegas-list {
+			color: saturate(#e03030, 30%);
+			font-family: Arial, Verdana, sans-serif;
+			font-size: 15px;
+			font-weight: bold;
+			line-height: 25px;
+			list-style-type: none;
+		}
+	}
+
+	.tours-latin-america {
+		margin-bottom: 30px;
+
+		h2 {
+			margin-bottom: 40px;
+		}
+		.cruise {
+			margin-bottom: 40px;
+			border-bottom: dashed #b8c5de 1px;
+			padding-bottom: 10px;	
+		}
+	}
+
+	.sports, .education {
+		ul {
+			margin-left: 20px;
+		}
+
+		li {
+			list-style-type: none;
+			margin-bottom: 10px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			span {
+				margin-left: 20px;
+			}
+		}
+
+		li:before {
+		  content: "";
+		  margin-right: 10px;
+		  display: inline-block;
+		  width: 10px;
+		  height: 10px;
+		  background-color: saturate(#e03030, 30%);
+		  border-radius: 50%;
+		  margin-bottom: 2px;
+		}
+	}
+
+	.education {
+		.left-column {
+			margin-top: 25px;
+			.description {
+				margin-left: 20px;
+				margin-bottom: 30px;
+			}
+
+			li {
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+}
