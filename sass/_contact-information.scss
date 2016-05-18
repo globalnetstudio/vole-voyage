@@ -7,7 +7,7 @@
 	.column {
 		float: left;
 		height: 30px;
-		width: 33%;
+		width: 33.33%;
 		line-height: 30px;
 		p {
 			font-family: Montserrat, Arial, Verdana;
@@ -32,5 +32,12 @@
 
 	.icon-email, .icon-phone {
 		margin-right: 10px;
+	}
+}
+
+@media(max-width: 985px) {
+	.contact-information {
+		margin: 0 20px 30px;
+		box-sizing: border-box;
 	}
 }

@@ -37,3 +37,14 @@
 		}
 	}
 }
+
+@media(max-width: 985px) {
+	#carousel {
+		left: 0;
+		margin-right: inherit;
+	}
+	.header-information {
+		margin-left: 15px;
+		width: 375px;
+	}
+}

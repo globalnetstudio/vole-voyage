@@ -25,10 +25,9 @@ body {
 }
 
 .clearfix::after {
-  content: " ";
-  display: table;
+  content: "";
+  display: block;
   clear: both;
-  overflow: hidden;
 }
 
 /*--------------------HEADER--------------------*/
@@ -38,6 +37,8 @@ body {
   border-top: solid 14px #ef202b;
   border-bottom: solid 14px #ef202b;
   position: relative;
+  max-width: 1890px;
+  min-width: 1025px;
 }
 
 .logo-menu {
@@ -169,6 +170,17 @@ body {
   list-style-type: none;
   float: left;
   display: block;
+}
+
+@media (max-width: 985px) {
+  #carousel {
+    left: 0;
+    margin-right: inherit;
+  }
+  .header-information {
+    margin-left: 15px;
+    width: 375px;
+  }
 }
 
 /*-------------------CAROUSEL LARGE-------------------*/
@@ -745,7 +757,7 @@ body {
 .contact-information .column {
   float: left;
   height: 30px;
-  width: 33%;
+  width: 33.33%;
   line-height: 30px;
 }
 
@@ -775,14 +787,22 @@ body {
   margin-right: 10px;
 }
 
+@media (max-width: 985px) {
+  .contact-information {
+    margin: 0 20px 30px;
+    box-sizing: border-box;
+  }
+}
+
 /*-----------------FOOTER-----------------*/
 .footer {
-  clear: both;
   background-color: #3f6fbc;
-  height: 50px;
-  font-size: 11px;
+  clear: both;
   color: white;
   font-family: Arial, sans-serif, Geveva;
+  font-size: 11px;
+  height: 50px;
+  min-width: 1025px;
 }
 
 .footer .container {
