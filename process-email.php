@@ -68,7 +68,25 @@
 		exit();	
 	endif;
 
-	// Pasa La validación y se procede a enviar el correo electrónico
+	$campos   = [];
+	$campos[] = ['nombre'   => 'Nombre del Prospecto', 'valor' => $name];
+	$campos[] = ['email'    => 'Correo Electrónico', 'valor' => $email];
+	$campos[] = ['telefono' => 'Número Telefónico', 'valor' => $phone];
+
+	if ($byEmail && $byPhone) :
+		$campos[] = ['metodo_contacto' => 'Método de contacto', 'value' => 'Teléfono/Correo Electrónico'];
+	else:
+		if($byEmail == 1) :
+			$campos[] = ['metodo_contacto' => 'Método de contacto', 'valor' => $byEmail];
+		endif;
+
+		if($byPhone == 1) :
+			$campos[] = ['metodo_contacto' => 'Método de contacto', 'valor' => $byPhone];
+		endif;
+	endif;
+
+	// Se crea el variable de sesión con los campos y el mensaje
+	$_SESSION['campos-emails'] = ['campos' => $campos, 'msg' => $questionsComments];
 
 	// Se crea el variable de sesión de mail-sended
 	// como verdadero para poder mostrar la página

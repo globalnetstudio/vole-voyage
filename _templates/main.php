@@ -116,7 +116,7 @@
 		<footer>
 			<div class="footer clearfix">
 				<div class="container">
-					<p class="copyright">Copyright 2016 &copy; Vole Voyage &#8226; Todos los Derechos Reservados</p>
+					<p class="copyright">Copyright <?php echo date('Y'); ?> &copy; Vole Voyage &#8226; Todos los Derechos Reservados</p>
 					<p class="developed_by">Desarrollo por <img src="/images/icons/global-net-studio-logo.png" alt="Global Net Studio Logo"> <a href="http://globalnetstudio.com/" target="_blank">Global Net Studio</a></p>
 				</div> <!-- /.footer__container -->
 			</div> <!-- /.footer -->
