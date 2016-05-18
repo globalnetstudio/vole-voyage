@@ -121,5 +121,9 @@
 				</div> <!-- /.footer__container -->
 			</div> <!-- /.footer -->
 		</footer>
+
+		<!--[if lt IE 10]>
+			<script src="./js/placeholders.min.js"></script>
+  	<![endif]-->
 	</body>
 </html>
