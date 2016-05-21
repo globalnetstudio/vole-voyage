@@ -568,6 +568,7 @@ body {
 }
 
 .contact input, .contact textarea {
+  font-family: Verdana, Arial, sans-serif;
   border: solid 1px #d4d4d4;
   box-sizing: border-box;
   color: #949494;
