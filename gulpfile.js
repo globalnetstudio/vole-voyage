@@ -20,7 +20,7 @@ gulp.task('sass', function () {
 
 gulp.task('serve', function() {
 	browserSync.init({
-		proxy: "volevoyage.app",
+		proxy: "www.volevoyage.app",
         open: false
 	});    
 

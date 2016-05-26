@@ -6,7 +6,10 @@
 		<link rel="icon" href="/images/icons/favicon.png" type="image/png" />
 		<meta name="robots" content="<?php echo $meta_robots; ?>">
 		<meta name="description" content="<?php echo $meta_description; ?>">
+		<!-- Styles -->
 		<link rel="stylesheet" href="/css/styles.css">
+		<link rel="stylesheet" href="/css/fontastic.css">
+
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
 		<!-- Google Fonts -->
 	  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -114,6 +117,8 @@
 
 		</aside> <!-- /.bottom-content -->
 
+		<div class="back-to-top"><i class="icon-arrow-up"></i></div>
+
 		<footer>
 			<div class="footer clearfix">
 				<div class="container">
@@ -126,5 +131,7 @@
 		<!--[if lt IE 10]>
 			<script src="./js/placeholders.min.js"></script>
   	<![endif]-->
+
+  	<script src="/js/scroll-up.js"></script>
 	</body>
 </html>

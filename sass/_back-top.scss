@@ -1,0 +1,19 @@
+.back-to-top {
+	background-color: rgba($red, .7);
+	border-radius: 10px;
+	bottom: 60px;
+	color: #fff;
+	cursor: pointer;
+	display: none;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+	padding: 0 15px;
+	position: fixed;
+	right: 20px;
+	text-decoration: none;
+}
+
+.back-to-top:hover {
+	background-color: rgba($red, 1);
+}

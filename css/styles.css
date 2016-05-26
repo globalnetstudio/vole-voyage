@@ -457,6 +457,23 @@ body {
   padding-right: 0;
 }
 
+.services .europe .row .column:first-child {
+  text-align: left;
+}
+
+.services .europe .row .column:first-child p {
+  margin: 0;
+}
+
+.services .europe .row .column:last-child {
+  text-align: right;
+}
+
+.services .europe .row .column:last-child p {
+  margin-left: auto;
+  margin-right: 0;
+}
+
 .services .usa .usa-description {
   margin-bottom: 30px;
 }
@@ -1014,6 +1031,26 @@ label.error {
 
 #questionComment-error {
   margin-top: -10px;
+}
+
+.back-to-top {
+  background-color: rgba(194, 26, 35, 0.7);
+  border-radius: 10px;
+  bottom: 60px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 40px;
+  padding: 0 15px;
+  position: fixed;
+  right: 20px;
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  background-color: #c21a23;
 }
 
 /*# sourceMappingURL=styles.css.map */
